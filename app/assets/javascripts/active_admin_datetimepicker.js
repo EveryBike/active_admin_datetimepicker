@@ -9,7 +9,7 @@ function setupDateTimePicker(container) {
     validateOnBlur: false
   }
 
-  $(container).find('input.date-time-picker').each(function(index, entry) {
+  $(container).find('input.date-time-picker-input').each(function(index, entry) {
     $(entry).datetimepicker($.extend(defaults, $(entry).data('datepicker-options')));
   });
 }

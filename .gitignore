@@ -5,3 +5,5 @@ spec/rails/rails-*
 pkg
 .bundle
 vendor/bundl
+.idea
+.vscode
